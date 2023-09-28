@@ -1,4 +1,4 @@
-import home from "../fixtures/selectors/client/homePage";
+import home from "../fixtures/selectors/homePage";
 const homePage = new home();
 
 describe("home page", () => {
