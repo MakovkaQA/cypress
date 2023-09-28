@@ -1,0 +1,34 @@
+[
+  {
+    "name": "successful authorization",
+    "data": {
+      "email": "qamid@qamid.ru",
+      "password": "qamid"
+    },
+    "result": "success"
+  },
+  {
+    "name": "Authorization error after invalid email and valid password",
+    "data": {
+      "email": "fake@email.com",
+      "password": "qamid"
+    },
+    "result": "fail"
+  },
+  {
+    "name": "Authorization error after invalid password and valid email",
+    "data": {
+      "email": "qamid@qamid.ru",
+      "password": "password"
+    },
+    "result": "fail"
+  },
+  {
+    "name": "Authorization error after invalid email and invalid password",
+    "data": {
+      "email": "abvgd@email.ru",
+      "password": "abcdefg"
+    },
+    "result": "fail"
+  }
+]
